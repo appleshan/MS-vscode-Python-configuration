@@ -1,0 +1,7 @@
+{
+    // Python specific
+    "python.pythonPath": "~/miniconda3/envs/emacs-pyls/bin/python",
+    "python.autoComplete.extraPaths": [
+        "~/miniconda3/envs/emacs-pyls/lib/python3.6/site-packages"
+    ]
+}

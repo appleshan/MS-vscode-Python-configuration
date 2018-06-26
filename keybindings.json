@@ -1,0 +1,41 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "editor.action.format"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "python.execInTerminal",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+]
